@@ -67,7 +67,7 @@ document.body.style.border = '5px solid red';
                                             console.log('Waiting 1 minute plus random seconds, then refreshing...');
                                             localStorage.setItem('runCount', ++runCount);
                                             window.location.assign("https://x.com/home");
-                                        }, 60000 + Math.random() * 90000); // 60-90s I MADE THIS 10 MINUTES FOR OVERNIGHT
+                                        }, 30000 + Math.random() * 30000); // 60-90s I MADE THIS 10 MINUTES FOR OVERNIGHT
                                     } else {
                                         console.log('Post Reply button not found yet, attempt', postAttempts + 1);
                                         postAttempts++;
